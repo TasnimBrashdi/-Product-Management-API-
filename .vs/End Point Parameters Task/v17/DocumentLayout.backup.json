@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Codeline User\\source\\repos\\End Point Parameters Task\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5AAB90C5-6C8F-407E-B872-02E335A1892C}|End Point Parameters Task\\End Point Parameters Task.csproj|c:\\users\\codeline user\\source\\repos\\end point parameters task\\end point parameters task\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AAB90C5-6C8F-407E-B872-02E335A1892C}|End Point Parameters Task\\End Point Parameters Task.csproj|solutionrelative:end point parameters task\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AAB90C5-6C8F-407E-B872-02E335A1892C}|End Point Parameters Task\\End Point Parameters Task.csproj|c:\\users\\codeline user\\source\\repos\\end point parameters task\\end point parameters task\\end point parameters task.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5AAB90C5-6C8F-407E-B872-02E335A1892C}|End Point Parameters Task\\End Point Parameters Task.csproj|solutionrelative:end point parameters task\\end point parameters task.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\source\\repos\\End Point Parameters Task\\End Point Parameters Task\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "End Point Parameters Task\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Codeline User\\source\\repos\\End Point Parameters Task\\End Point Parameters Task\\Models\\Product.cs",
+              "RelativeToolTip": "End Point Parameters Task\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T08:06:10.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "End Point Parameters Task",
+              "DocumentMoniker": "C:\\Users\\Codeline User\\source\\repos\\End Point Parameters Task\\End Point Parameters Task\\End Point Parameters Task.csproj",
+              "RelativeDocumentMoniker": "End Point Parameters Task\\End Point Parameters Task.csproj",
+              "ToolTip": "C:\\Users\\Codeline User\\source\\repos\\End Point Parameters Task\\End Point Parameters Task\\End Point Parameters Task.csproj",
+              "RelativeToolTip": "End Point Parameters Task\\End Point Parameters Task.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-12T08:05:19.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
