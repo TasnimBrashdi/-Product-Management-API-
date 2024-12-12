@@ -1,4 +1,6 @@
 
+using Microsoft.EntityFrameworkCore;
+
 namespace End_Point_Parameters_Task
 {
     public class Program
@@ -7,6 +9,8 @@ namespace End_Point_Parameters_Task
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            builder.Services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
             // Add services to the container.
 
             builder.Services.AddControllers();
