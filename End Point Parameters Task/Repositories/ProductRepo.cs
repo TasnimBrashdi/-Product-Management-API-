@@ -2,7 +2,7 @@
 
 namespace End_Point_Parameters_Task.Repositories
 {
-    public class ProductRepo
+    public class ProductRepo : IProductRepo
     {
         private readonly ApplicationDbContext _context;
 
@@ -26,7 +26,7 @@ namespace End_Point_Parameters_Task.Repositories
             _context.Products.Add(product);
             _context.SaveChanges();
 
-          
+
         }
 
         public void Update(Product product)
