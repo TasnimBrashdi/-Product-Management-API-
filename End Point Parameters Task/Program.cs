@@ -1,4 +1,6 @@
 
+using End_Point_Parameters_Task.Repositories;
+using End_Point_Parameters_Task.Sevices;
 using Microsoft.EntityFrameworkCore;
 
 namespace End_Point_Parameters_Task
@@ -12,7 +14,8 @@ namespace End_Point_Parameters_Task
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
             // Add services to the container.
-
+            builder.Services.AddScoped<IProductRepo, ProductRepo>();
+            builder.Services.AddScoped<IProductService, ProductService>();
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
