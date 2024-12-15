@@ -2,7 +2,7 @@
 
 namespace End_Point_Parameters_Task.Repositories
 {
-    public class UserRepo
+    public class UserRepo : IUserRepo
     {
         private readonly ApplicationDbContext _context;
 
