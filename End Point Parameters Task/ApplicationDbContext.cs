@@ -9,6 +9,8 @@ namespace End_Point_Parameters_Task
         {
 
         }
+  
         public DbSet<Product> Products { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }
